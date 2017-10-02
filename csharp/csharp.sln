@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "hello-world\HelloWorld.csproj", "{0A0A2A33-A662-483E-BD8B-1692426C45E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leap", "leap\Leap.csproj", "{B82656C4-B507-4421-B2CD-B4F9963F8394}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A0A2A33-A662-483E-BD8B-1692426C45E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0A2A33-A662-483E-BD8B-1692426C45E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0A2A33-A662-483E-BD8B-1692426C45E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0A2A33-A662-483E-BD8B-1692426C45E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82656C4-B507-4421-B2CD-B4F9963F8394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82656C4-B507-4421-B2CD-B4F9963F8394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82656C4-B507-4421-B2CD-B4F9963F8394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82656C4-B507-4421-B2CD-B4F9963F8394}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B19245F0-88B5-4827-915E-3B6790DBF280}
+	EndGlobalSection
+EndGlobal
