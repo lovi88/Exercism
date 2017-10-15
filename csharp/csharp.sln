@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfMultiples", "sum-of-mu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raindrops", "raindrops\Raindrops.csproj", "{BB22B8C9-6DD8-485B-9C64-91CACDCF27BB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFer", "two-fer\TwoFer.csproj", "{81155E6F-4D57-4D60-BEF9-FA4B24751390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BB22B8C9-6DD8-485B-9C64-91CACDCF27BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB22B8C9-6DD8-485B-9C64-91CACDCF27BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB22B8C9-6DD8-485B-9C64-91CACDCF27BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81155E6F-4D57-4D60-BEF9-FA4B24751390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81155E6F-4D57-4D60-BEF9-FA4B24751390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81155E6F-4D57-4D60-BEF9-FA4B24751390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81155E6F-4D57-4D60-BEF9-FA4B24751390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
