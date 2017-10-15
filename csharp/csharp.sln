@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raindrops", "raindrops\Rain
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFer", "two-fer\TwoFer.csproj", "{81155E6F-4D57-4D60-BEF9-FA4B24751390}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NucleotideCount", "nucleotide-count\NucleotideCount.csproj", "{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{81155E6F-4D57-4D60-BEF9-FA4B24751390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81155E6F-4D57-4D60-BEF9-FA4B24751390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81155E6F-4D57-4D60-BEF9-FA4B24751390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
