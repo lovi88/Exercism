@@ -5,25 +5,25 @@ public static class Bob
 {
     public static string Response(string statement)
     {
+        //Response to nothing
         if (string.IsNullOrWhiteSpace(statement))
         {
             return "Fine. Be that way!";
         }
 
-        var letters = statement
-            .Where(c => !(char.IsDigit(c) || char.IsPunctuation(c) || char.IsWhiteSpace(c) || char.IsSymbol(c))).ToList();
-
-        if (letters.Count > 0 &&
-            letters.All(c => char.IsUpper(c) || char.IsPunctuation(c) || char.IsDigit(c)))
+        //Response to shouting
+        if (statement.Any(char.IsLetter) && statement.ToUpperInvariant() == statement)
         {
             return "Whoa, chill out!";
         }
 
+        //Response to question
         if (statement.TrimEnd().Last() == '?')
         {
             return "Sure.";
         }
 
+        //Response to everithing else
         return "Whatever.";
     }
 }
