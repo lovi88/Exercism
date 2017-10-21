@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "hello-world\HelloWorld.csproj", "{0A0A2A33-A662-483E-BD8B-1692426C45E4}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFer", "two-fer\TwoFer.csproj", "{81155E6F-4D57-4D60-BEF9-FA4B24751390}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NucleotideCount", "nucleotide-count\NucleotideCount.csproj", "{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accumulate", "accumulate\Accumulate.csproj", "{EDE089A9-D510-4F38-A154-EA5B6B41819C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B93CB550-B6C8-47FF-82C0-7E2545D75CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE089A9-D510-4F38-A154-EA5B6B41819C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE089A9-D510-4F38-A154-EA5B6B41819C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE089A9-D510-4F38-A154-EA5B6B41819C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE089A9-D510-4F38-A154-EA5B6B41819C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
