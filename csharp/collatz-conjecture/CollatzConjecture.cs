@@ -9,23 +9,19 @@ namespace CollatzConjecture
         {
             ValidateInputs();
 
-            return MakeSteps();
+            var times = 0;
 
-            int MakeSteps()
+            while (number != 1)
             {
-                var times = 0;
+                times++;
 
-                while (number != 1)
-                {
-                    times++;
-
-                    number = number % 2 == 0
-                        ? number / 2
-                        : number * 3 + 1;
-                }
-
-                return times;
+                number = number.IsEven()
+                    ? number / 2
+                    : number * 3 + 1;
             }
+
+            return times;
+
 
             void ValidateInputs()
             {
@@ -36,5 +32,9 @@ namespace CollatzConjecture
             }
         }
 
+        private static bool IsEven(this int num)
+        {
+            return num % 2 == 0;
+        }
     }
 }
