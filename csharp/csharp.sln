@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accumulate", "accumulate\Ac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeSchool", "grade-school\GradeSchool.csproj", "{F120A262-48BB-47EA-8214-71B121009578}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollatzConjecture", "collatz-conjecture\CollatzConjecture.csproj", "{DF602D6F-0408-4536-8A51-625B60799CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F120A262-48BB-47EA-8214-71B121009578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F120A262-48BB-47EA-8214-71B121009578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F120A262-48BB-47EA-8214-71B121009578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF602D6F-0408-4536-8A51-625B60799CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF602D6F-0408-4536-8A51-625B60799CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF602D6F-0408-4536-8A51-625B60799CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF602D6F-0408-4536-8A51-625B60799CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
